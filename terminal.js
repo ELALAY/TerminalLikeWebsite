@@ -112,11 +112,11 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output(result);
           break;
         case 'education':
-          var result = "<h3>Education</h3>"+"<p>Bachelors of Science in Computer Science at Al Akhawayn University in Ifrane, Morocco with minors in Mathematics and in Business Administration Concentrated in Finance (In progress)<br>Baccalaureate in Physics in 2015 from Al Manbaa High School in Rabat, Morocco";
+          var result = "<h3>Education:</h3>"+"<p><h3>Major</h3>Bachelors of Science in Computer Science at Al Akhawayn University in Ifrane, Morocco<br><br><h3>Minor</h3>Minor in Mathematics<br>Minor in Business Administration Concentrated in Finance (In progress)<br><br><h3>Baccalaureate</h3>Baccalaureate in Physics in 2015 from Al Manbaa High School in Rabat, Morocco";
           output(result);
           break;
         case 'programming':
-          var result = "<h3>Competitive Programmer</h3><p>12th Place in the Moroccan Collegiate Programming Contest 2017 with my team \"Digimon\"<br>Wiiner Prize at Code IT 2017, Ecole Hassania des Traveaux Publics, Casablanca, Morocco<br>Winner Prize at JNJD Programming Contest 2017 at INPT in Rabat, Morocco<p>"+"<h3> Web Developer and Entrepreneur</h3><br>Web Development Tutor – E-nitiate Summer Camp 2016<br><h3>Junior Inter at SQLI Maroc</h3> WebStore Market Place Project.<br>"
+          var result = "<h3>Competitive Programmer</h3><p>12th Place in the Moroccan Collegiate Programming Contest 2017 with my team \"Digimon\"<br>Wiiner Prize at Code IT 2017, Ecole Hassania des Traveaux Publics, Casablanca, Morocco<br>Winner Prize at JNJD Programming Contest 2017 at INPT in Rabat, Morocco<p>"+"<h3> Web Developer and Entrepreneur</h3><br>Web Development Tutor – E-nitiate Summer Camp 2016<br><h3>Junior Intern at SQLI Maroc</h3>Rabat, Morocco<br>WebStore Market Place Project in JAVA, SPRING, SPRING BOOT, HTML.<br><h3>Intern at Health Ministry</h3> Rabat, Morocco<br>ISPITS Schools palteforms in C#"
           output(result);
           break;
         case 'interests': 
